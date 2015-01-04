@@ -1,3 +1,3 @@
 ## Problem 
 
-### [Array and String]()
+### [Array and String](./array-and-string.md)
