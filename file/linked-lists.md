@@ -4,4 +4,4 @@
 - 2.2. Implement an algorithm to find the kth to last element of a singly linked list. [[Solution]](https://github.com/hxwang/Leetcode/blob/master/code/Remove-Nth-Node-From-End-of-List.java)
 - 2.3. Implement an algorithm to delete a node in the middle of a single linked list, given only access to that node.
 Example: input a->b->c->d->e, output: a->b->d->e [[Solution]](../code/2.3.java)
-- 2.4. Write code to partition a linked list around a value x, such that all nodes less than x come before all nodes greater than or equal to x.
+- 2.4. Write code to partition a linked list around a value x, such that all nodes less than x come before all nodes greater than or equal to x. [[Solution]](https://github.com/hxwang/Leetcode/blob/master/code/Partition-List.java)
