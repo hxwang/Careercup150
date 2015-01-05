@@ -6,5 +6,6 @@
 Example: input a->b->c->d->e, output: a->b->d->e [[Solution]](../code/2.3.java)
 - 2.4. Write code to partition a linked list around a value x, such that all nodes less than x come before all nodes greater than or equal to x. [[Solution]](https://github.com/hxwang/Leetcode/blob/master/code/Partition-List.java)
 - 2.5 You have two numbers represetned by a linked list, where each node contains a single digit. The digits are stored in reverse order, such that the 1's digit is at the head of the list. Write a function that adds the two numbers and returns the sum as a linked list.
+
 EXAMPLE: Input: 7->1->6 + 5->9->2, that is 617 + 912 
 Output: 2->1->9. That is, 912.
