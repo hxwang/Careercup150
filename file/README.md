@@ -4,4 +4,4 @@
 
 ### [Linked Lists](./linked-lists.md)
 
-### [Stacks and Queues]()
+### [Stacks and Queues](./stack-and-queues.md)
