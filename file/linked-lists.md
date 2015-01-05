@@ -9,3 +9,4 @@ Example: input a->b->c->d->e, output: a->b->d->e [[Solution]](../code/2.3.java)
 
 EXAMPLE: Input: 7->1->6 + 5->9->2, that is 617 + 912 
 Output: 2->1->9. That is, 912.
+- 2.6 Given a circular linked list, implement an algorithm which returns the node at the beginning of the loop. [[Solution]](https://github.com/hxwang/Leetcode/blob/master/code/Linked-List-Cycle-II.java)
