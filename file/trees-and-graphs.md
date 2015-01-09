@@ -8,4 +8,4 @@
 
 - 4.3 Given a sorted (increasing order) array, write an algorithm to create a binary search tree with minimal height. [[Solution]](../code/4.3.java)
 
-- 4.4. Given a binary tree, design an algorithm which creates a linkedlist of all the nodes at each depth (e.g., if you have a tree with depth D, you will have D linkedlist).
+- 4.4. Given a binary tree, design an algorithm which creates a linkedlist of all the nodes at each depth (e.g., if you have a tree with depth D, you will have D linkedlist). [[Solution]](../code/4.4.java)
