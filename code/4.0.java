@@ -11,3 +11,24 @@ void search(Node root){
       search(n);
   }
 }
+
+
+//bfs
+void search(Node root){
+  //use a queue to maintain the elements that are to be visited
+  Queue queue = new Queue();
+  root.visited = true;
+  visit(root);
+  queue.enqueue(root); //Add to the end of the queue
+  
+  while(!queue.isEmpty()){
+    Node r = queue.dequeue();
+    foreach (Node in r.adjacent){
+      if(n.visited == false){
+        visit(n);
+        n.visited = true;
+        queue.enqueue(n);
+      }
+    }
+  }
+}
