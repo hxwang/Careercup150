@@ -2,6 +2,9 @@
 //stack s contains unsorted elements
 //stack r used to contain sorted elements
 
+//Time complexity: O(n^2)
+//Space complexity: O(n)
+
 public static Stack<Integer> sort(Stack<Integer> s){
   
   Stack<Integer> r = new Stack<Integer>();
