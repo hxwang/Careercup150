@@ -8,6 +8,8 @@
 //time complexity: O(n1+n2)
 
 //Approach 2: test each node in T1 to see if it can be the root of the subtree
+//Space complexity: O(log n+ log m)
+//Time complexity: O(n1 + n2*k): not every node in t1 match with the root of t2; k is the amount that matches
 
 bolean containsTree(TreeNode t1, TreeNode t2){
   //the empty tree is always a subtree
