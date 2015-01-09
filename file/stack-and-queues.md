@@ -12,4 +12,4 @@
   - (3) A disk is slid off the top of one tower onto the next tower.
   write a program to move the disks from the first tower to the last using stacks.
 
-- 3.5 Implement a MyQueue class which implements a queue using two stacks.
+- 3.5 Implement a MyQueue class which implements a queue using two stacks. [[Solution]](../code/3.5.java)
