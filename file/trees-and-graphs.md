@@ -10,4 +10,4 @@
 
 - 4.4. Given a binary tree, design an algorithm which creates a linkedlist of all the nodes at each depth (e.g., if you have a tree with depth D, you will have D linkedlist). [[Solution]](../code/4.4.java)
 
-- 4.5 Implement a function to check if a binary tree is a binary search tree.
+- 4.5 Implement a function to check if a binary tree is a binary search tree. [[Solution]](../code/4.5.java)
