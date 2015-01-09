@@ -6,4 +6,4 @@
 
 - 4.2 Given a directed graph, design an algorithm to find out whether there is a route between two nodes? [[Solution]](../code/4.2.java)
 
-- 4.3 Given a sorted (increasing order) array, write an algorithm to create a binary search tree with minimal height.
+- 4.3 Given a sorted (increasing order) array, write an algorithm to create a binary search tree with minimal height. [[Solution]](../code/4.3.java)
