@@ -1,6 +1,8 @@
 
 
-//
+//Space complexity: O(logn)
+//Time complexity: O(nlogn)
+
 void findSum(TreeNode node, int sum, int[] path, int level){
   if(node==null)
     return;
