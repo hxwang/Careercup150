@@ -38,7 +38,8 @@ TreeNode commonAncestor(TreeNode root, TreeNode p, TreeNode q){
   return commonAncestorHelper(root, p, q);
 }
 
-
+--------------------------------------------------------------------------------------------
+//Not understand!
 //Approach 3:
 //Aprpach 2 is not efficient since it search each subtree over and over again
 //We should be able to "bubble up" the findings to earlier nodes in the stack
