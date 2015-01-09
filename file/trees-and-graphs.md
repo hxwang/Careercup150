@@ -13,3 +13,5 @@
 - 4.5 Implement a function to check if a binary tree is a binary search tree. [[Solution]](../code/4.5.java)
 
 - 4.6 Write an algorithm to find the "next" node (i.e., in-order successor) of a given node in a binary search tree. You may assume that each node has a link to its parent. [[Solution]](../code/4.6.java)
+
+- 4.7 Design an algorithm and write code to find out the first common ancestor of two nodes in a binary tree. Avoid storing additional nodes in a data structure. NOTE: This is not necessarily a binary search tree.
