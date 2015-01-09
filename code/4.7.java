@@ -42,3 +42,47 @@ TreeNode commonAncestor(TreeNode root, TreeNode p, TreeNode q){
 //Approach 3:
 //Aprpach 2 is not efficient since it search each subtree over and over again
 //We should be able to "bubble up" the findings to earlier nodes in the stack
+
+
+//return two values: the node itself and a flag indicating whether this node is actually the common ancestor
+public static class Result{
+  public TreeNode node;
+  public boolean isAncestor;
+  public Result(TreeNode n, boolean inAnc){
+    node = n;
+    inAncestor = inAnc;
+  }
+}
+
+Result commonAncestorHelper(TreeNode root, TreeNode p, TreeNode q){
+  if(root == null)
+    return new Result(null, false);
+  if(root == p && root==q){
+    return new Result(root, true);
+  }
+  
+  Result rx = commonAncestorHelper(root.left, p, q);
+  if(rx.isAncestor){
+    return rx;
+  }
+  
+  Resutl ry = commonAncestorHelper(root.right, p, q);
+  if(ry.isAncestor)
+    return ry;
+  
+  if(rx.node !=null && ry.node !=null){
+    return new Result(root, true);
+  }
+  else if(root==p || root==q){
+    boolean isAncestor = rx.node !=null || ry.node !=null ? true: false;
+    return new Result(root, isAncestor);
+  }
+  else
+    return new Result(rx.node !=null ? rx.node: rx.node, false);
+}
+
+TreeNode commonAncestor(TreeNode root, TreeNode p, TreeNode q){
+  Result r = commonAncestorHelper(root,p, q);
+  if(r.isAncestor) return r.node;
+  return null;
+}
