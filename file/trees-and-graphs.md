@@ -19,4 +19,4 @@
 - 4.8 You have two very large binary trees: T1m with millions of nodes, and T2, with hundreds of nodes. Create an algorithm to decide if T2 is a subtree of T1.
 A tree R2 is a subtree of T2 if here exists a node n in T1 such that the subtree of n is identical to T2. That is, if you cut off the tree at node n, the two trees would be identical. [[Solution]](../code/4.8.java)
 
-- 4.9 You are given a binary tre in which each node contains a value. Design an algorithm to print all paths which sum up to a given value. Note that a path can start or end anyware in the tree.
+- 4.9 You are given a binary tre in which each node contains a value. Design an algorithm to print all paths which sum up to a given value. Note that a path can start or end anyware in the tree. [[Solution]](../code/4.9.java)
