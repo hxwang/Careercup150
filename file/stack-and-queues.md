@@ -15,3 +15,5 @@
 - 3.5 Implement a MyQueue class which implements a queue using two stacks. [[Solution]](../code/3.5.java)
 
 - 3.6 Write a program to sort a stack in ascending order (with biggest items on top). You may use additional stacks to hold items, but you may not copy the element into another data structure (such as an array). The stack supports the following operations: push, pop, peek and is empty. [[Solution]](../code/3.6.java)
+
+- 3.7 An animal shelter holds only dogs and cats, and operates on a strictly "first in, first out" basis. People must adopt either the "oldest" (based on arrival time) of all animals at the shelter, or they can seelect whether they prefer a dog or a cat (and will receive the oldest animal of that type). They cannot select which specific animal they would like. Create the data structures to maintain this system and implement operations such as enqueue, dequeueAny, dequeueDog and dequeueCat. You may use the built-in LinkedList data structure.
