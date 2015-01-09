@@ -18,6 +18,7 @@ void findSum(TreeNode node, int sum, int[] path, int level){
   }
   
   //search nodes beneath this one
+  //note path array passed!
   findSum(node.left, sum, path, level+1);
   findSum(node.right, sum, path, level+1);
   
