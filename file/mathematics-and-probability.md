@@ -16,3 +16,5 @@
 - 7.5 Given two square on two-dimensional plane, find a line that would cut these two squares in half. Assume that the top and the bottom sides of the square run parallel to the x-axis. [[Solution]](../code/7.5.java)
 
 - 7.6 Given a two-dimensional graph with points on it, find a line which passes the most number of points. [[Solution]](https://github.com/hxwang/Leetcode/blob/master/code/Max-Points-on-a-Line.java), [[Solution2]](../code/7.6.java)
+
+- 7.7 Design an algorithm to find the kth number such that the only prime factors are 3,5, and 7.
