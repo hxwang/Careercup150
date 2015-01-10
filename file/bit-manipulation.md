@@ -17,3 +17,5 @@
   - Output: 2
 
 - 5.6 Write a program to swap odd and even bits in an integer with as few instructions as possible (e.g., bit 0 and bit 1 are swapped, bit 2 and bit 3 are swapped, and so on). [[Solution]](../code/5.6.java)
+
+- 5.7 An array A contains all the integers from 0 to n, except for one number which is missing. In this problem, we cannot acess an entire integer in A with a single operation. The elements of A are presented in binary, and the only opertion we can use to access them is "fetch the jth bit of A[i]", which takes constatnt time. Write code to find the missing integer. Can you do it in O(n) time?
