@@ -11,3 +11,7 @@
 - 5.3 Given a positive integer, print the next smallest and the next largest number that have the same number of 1 bits in their binary representation. [[Solution]](../code/5.3.java)
 
 - 5.4 Explain what the following code does: ((n & (n-1)) == 0) [[Solution]](../code/5.4.java)
+
+- 5.5 Write a function to determine the number of bits required to convert integer A to integer B.
+  - Example: Input 31, 14
+  - Output: 2
