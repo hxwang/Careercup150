@@ -10,4 +10,4 @@
 
 - 6.5 There is a building of 100 floors. If an egg drops from the Nth floor or above it, it will break. If it's dropped from any floor below, it will not break. You're given two eggs. Find N, while minimizing the number of drops for the worst case. [[Solution]](../code/6.5.java)
 
-- 6.6 There are 100 closed lockers in a halfway. A man begins by opening all 100 lockers. Next, he closes every second locker. Then, on his third pass, he toggles every third locker (closes it if it is opens if it is closed). This process continues for 100 passes, such that on each pass i, the man toggles every ith locker. After his 100th pass in the hallway, in which he toggles only locker #100, how many lockers are open?
+- 6.6 There are 100 closed lockers in a halfway. A man begins by opening all 100 lockers. Next, he closes every second locker. Then, on his third pass, he toggles every third locker (closes it if it is opens if it is closed). This process continues for 100 passes, such that on each pass i, the man toggles every ith locker. After his 100th pass in the hallway, in which he toggles only locker #100, how many lockers are open? [[Solution]](../code/6.6.java)
