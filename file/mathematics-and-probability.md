@@ -12,3 +12,5 @@
 - 7.3 Given two lines on a Cartesian plane, determine whether the two lines would intersect. [[Solution]](../code/7.3.java)
 
 - 7.4 Write methods to implement the multiply, subtract, and divide operations for integers. Use only add operator. [[Solution]](../code/7.4.java)
+
+- 7.5 Given two square on two-dimensional plane, find a line that would cut these two squares in half. Assume that the top and the bottom sides of the square run parallel to the x-axis.
