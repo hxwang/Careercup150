@@ -6,4 +6,4 @@
   - Example: N = 10000000000, M = 10011, i =2, j =6
   - Output: N = 10001001100
 
-- 5.2 Given a real number between 0 and 1 (e.g., 0.72) that is passed in as a double. Print the binary representation. If the number cannot be represendted accurately in binary with at most 32 characters, print "ERROR".
+- 5.2 Given a real number between 0 and 1 (e.g., 0.72) that is passed in as a double. Print the binary representation. If the number cannot be represendted accurately in binary with at most 32 characters, print "ERROR". [[Solution]](../code/5.2.java)
