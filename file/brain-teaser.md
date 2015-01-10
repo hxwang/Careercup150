@@ -8,4 +8,4 @@
 
 - 6.4 A bunch of people are living on an island, when a visitor comes with a strange order: all blue-eyed people must leave the island as soon as possible. There will be a flight out at 8:00 pm every evening. Each person can see everyone else's eye color but they do not know there own (nor does anyone allowed to tell them). Additionally, they do not know how many people have blue eyes, although they do know that at least one person does. How many days will it take the blue-eyed people to leave? [[Solution]](../code/6.4.java)
 
-- 6.5 There is a building of 100 floors. If an egg drops from the Nth floor or above it, it will break. If it's dropped from any floor below, it will not break. You're given two eggs. Find N, while minimizing the number of drops fro the worst case.
+- 6.5 There is a building of 100 floors. If an egg drops from the Nth floor or above it, it will break. If it's dropped from any floor below, it will not break. You're given two eggs. Find N, while minimizing the number of drops for the worst case.
