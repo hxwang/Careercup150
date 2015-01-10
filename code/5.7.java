@@ -26,6 +26,7 @@ public int findMissing(ArrayList<BitInteger> input, int column){
     else onesBits.add(t);
   }
   
+  //recursive compute either a 0 or a 1
   if(zerosBits.size()<=0 onesBits.size()){
     int v = findMissing(zeroBits, column-1);
     return (v<<1) | 0;
