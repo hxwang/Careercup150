@@ -41,3 +41,27 @@ public getNext(int n){
 //Step 1: compute c0 c1, p (10000)
 //Step 2: set p as 0, as 0...p-1 as 0
 //Step 3: insert c1+1 ones immediately to the right of position p
+public int getPrev(int n){
+  
+  int c = n;
+  int c1 = 0;
+  int c0 = 0;
+  while(c&1==1){
+    c1++;
+    c>>=1;
+  }
+  if(c==0) return -1;
+  while( ((c&1)==0) && (c!=0)){
+    c0++;
+    c>>=1;
+  }
+  
+  int a = ~0;
+  int b = a<<(p+1);//set right of p as 0
+  n &= b;
+  
+  int mask = (1<<(c1+1))-1; //step 3
+  n |= mask << (c0-1);
+  
+  return n;
+}
