@@ -8,3 +8,4 @@
 
 ### Part 2: Concepts and Algorithms
 - [5. Bit Manipulation](./bit-manipulation.md)
+- [6. Brain Teasers](./brain-teaser.md)
