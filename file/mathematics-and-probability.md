@@ -1,3 +1,3 @@
 ## Mathematics and Probability
 
-- [Get List of Primes](../code/7.0.java)
+- 7.0 [Get List of Primes](../code/7.0.java)
