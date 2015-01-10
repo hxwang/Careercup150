@@ -4,4 +4,4 @@
 
 - 6.2 There is an 8*8 chess board in which two diagonally opposite corners have been cut off. You have given 31 dominos, and a single domino can cover exactly two squares. Can you use the 31 dominos to cover the entire board? Prove your answer (by providing an example or showing why it's impossible) [[Solution]](../code/6.2.java)
 
-- 6.3 You have a five-quart jug, a three-quart jug and an unlimited supply of water (but no measuring cups). Houw would you come up with exactly four quarts of water? Note that the jugs are oddly shaped, such that filling up exactly half of the jug would be impossible.
+- 6.3 You have a five-quart jug, a three-quart jug and an unlimited supply of water (but no measuring cups). Houw would you come up with exactly four quarts of water? Note that the jugs are oddly shaped, such that filling up exactly half of the jug would be impossible. [[Solution]](../code/6.3.java)
