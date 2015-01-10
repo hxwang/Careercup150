@@ -10,3 +10,5 @@
   - Similarly, find the probability of collison with n ants on an n-vertex polygon.
 
 - 7.3 Given two lines on a Cartesian plane, determine whether the two lines would intersect. [[Solution]](../code/7.3.java)
+
+- 7.4 Write methods to implement the multiply, subtract, and divide operations for integers. Use only add operator.
