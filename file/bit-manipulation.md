@@ -7,3 +7,5 @@
   - Output: N = 10001001100
 
 - 5.2 Given a real number between 0 and 1 (e.g., 0.72) that is passed in as a double. Print the binary representation. If the number cannot be represendted accurately in binary with at most 32 characters, print "ERROR". [[Solution]](../code/5.2.java)
+
+- 5.3 Given a positive integer, print the next smallest and the next largest number that have the same number of 1 bits in their binary representation.
