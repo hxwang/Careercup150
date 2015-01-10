@@ -34,3 +34,10 @@ public getNext(int n){
   n |= (1<< (c1-1))-1; //step4
   return n;
 }
+
+
+
+//Get Previous number
+//Step 1: compute c0 c1, p (10000)
+//Step 2: set p as 0, as 0...p-1 as 0
+//Step 3: insert c1+1 ones immediately to the right of position p
