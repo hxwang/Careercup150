@@ -10,4 +10,4 @@
 
 - 5.3 Given a positive integer, print the next smallest and the next largest number that have the same number of 1 bits in their binary representation. [[Solution]](../code/5.3.java)
 
-- 5.4 Explain what the following code does: ((n & (n-1)) == 0)
+- 5.4 Explain what the following code does: ((n & (n-1)) == 0) [[Solution]](../code/5.4.java)
