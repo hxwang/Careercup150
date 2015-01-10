@@ -12,6 +12,6 @@
 
 - 5.4 Explain what the following code does: ((n & (n-1)) == 0) [[Solution]](../code/5.4.java)
 
-- 5.5 Write a function to determine the number of bits required to convert integer A to integer B.
+- 5.5 Write a function to determine the number of bits required to convert integer A to integer B. [[Solution]](../code/5.5.java)
   - Example: Input 31, 14
   - Output: 2
