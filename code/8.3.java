@@ -65,3 +65,20 @@ public class CDPlayer{
   public CD getCD() {return c;}
   public void setCD(CD c) {this.c = c;}
 }
+
+
+///////////////////////////////////////////////////////////
+//The playlist manages the current and next songs to play, it is essentially a rapper class for a queue and offers some additional methods for convenience
+
+public class PlayList{
+  
+  private Song song;
+  private Queue<Song> queue;
+  public Playlist(Song song, Queue<Song> queue) {...}
+  
+  public Song getNextToPlay() {return queue.peek(); }
+  
+  public void queueUpSong(Song s) {queue.add(s);}
+}
+
+/////////////////////////////////////////////////////////////
