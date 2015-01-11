@@ -82,3 +82,26 @@ public class PlayList{
 }
 
 /////////////////////////////////////////////////////////////
+//The classes for CD, Song and User 
+
+public class CD{
+  
+  //data for id, artiest, song etc
+}
+
+public class Song{
+  //data for id, CD, title
+}
+
+public class User{
+  private String name;
+  private long ID;
+  public String getName() {return name;}
+  public void setName(String name) {this.name = name;}
+  public long gtetID() {return ID;}
+  public void setID(long ID) {this.ID = ID;}
+  public User(String name, long ID) {...}
+  public User getUser() {return this;}
+  public static User addUser(String name, long ID) [。。。}]
+  
+}
