@@ -8,4 +8,4 @@
 
 - 8.3 Design a musical jukebox using object-oriented principles. [[Solution]](../code/8.3.java)
 
-- 8.4 Design a parking lot using object-oriented principles
+- 8.4 Design a parking lot using object-oriented principles. [[Solution]](../code/8.4.java)
