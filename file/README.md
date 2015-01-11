@@ -10,3 +10,4 @@
 - [5. Bit Manipulation](./bit-manipulation.md)
 - [6. Brain Teasers](./brain-teaser.md)
 - [7. Mathematics and Probability](./mathematics-and-probability.md)
+- [8. Object-Oriented Design](./ood.md)
