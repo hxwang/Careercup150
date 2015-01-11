@@ -138,7 +138,52 @@ public class Call{
 //Employee is a super class for the Director, Manager and Respondent classes. It is implmeented as an abstract class since there would be no reason to instantiate an Employee type directly
 
 public abstract class Employee{
+  private Call currentCall = null;
+  protected Rank rank;
+  
+  public Employee() {}
+  
+  //start the conversation
+  public void receiveCall(Call call) {...}
+  
+  //the issue is resolved, finish the call
+  public void callCompleted() {...}
+  
+  //the issue is not been resolved, Escalate the call and assign a new call to the employ
+  public void escalateAndReassign() {...}
+  
+  //assign a new call to an Employee, if the employee is free
+  public boolean assignNewCall() {...}
+  
+  //return whether ot not the employee is free
+  public boolean isFree() {return currentCall == null;}
+  
+  public Rank getRank() {return Rank;}
+  
+}
 
+
+//////////////////////////////////////////////////////////////////////
+//The Respondent, Director and Manager class are now just simple extensions of the Employee class
+public class Director extends Employee{
+  
+  public Director(){
+    rank = Rank.Director;
+  }
+  
+}
+
+public Manager extends Employee{
+  
+  public Manager(){
+    rank = Rank.Manager;
+  }
+}
+
+public Respondent extends Employee{
+  public Respondent(){
+    rank = Rank.Resonder;
+  }
 }
 
 
