@@ -107,5 +107,78 @@ public class User{
   public void addConversation(PrivateChat conversation) {...}
   public void addConversation(GroupChat conversation) {...}
   public int getId() {...}
+  public String getAccountName() {...}
+  public String getFullName() {...}
+}
+
+////////////////////////////////////////////////////////////////////////
+
+//The Conversation class is implemented as an abstract class, since all conversations must be either GroupChat or PrivateChat
+
+public abstract class Conversation{
   
+  protected ArrayList<User> participantsl
+  protected int id;
+  protected ArrayList<Message> messages;
+  
+  public ArrayList<Message> getMessage() {...}
+  public boolean addMessage(Message m) {...}
+  public int getId() {...}
+}
+
+public class GroupChat extends Conversation{
+  public void removeParticipants(User user) {...}
+  public void addparticipants(User user) {...}
+  
+}
+
+public class PrivateChat extends Conversation{
+  
+  public PrivateChat(User u1, User u2) {...}
+  public User getOtherParticipant(User primary) {...}
+  
+}
+
+
+//////////////////////////
+public class Message{
+  private String content;
+  private Date date;
+  public Message(String content, Date date) {...}
+  public String getContent();
+  public Date getDate() {...}
+}
+
+///////////////////////////////////
+//AddRequest and UserStatus are simple classes with little functionality
+
+public class AddRequest{
+  private User fromuser;
+  private User touserl
+  private Date date;
+  RequestStatus status;
+  
+  public AddRequest(User from, User to, Date date) {...}
+  public RequestStatus getStatus() {...}
+  public User getFromUser(){}
+  public User getToUser() {}
+  public Date getDate() {} 
+  
+}
+
+
+public class UserStatus{
+  private String message;
+  private UserStatusType type;
+  public UserStatus(UserStatusType type, String message) {...}
+  public UserStatusType getStatusType() {...}
+  public String getMessage() {...}
+}
+
+public enum UserStatusType {
+  Offline, Away, Idle, Available, Busy
+}
+
+public enum RequestStatus{
+  Unread, Read, Accepted, Rejected
 }
