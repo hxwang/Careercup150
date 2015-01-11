@@ -10,4 +10,4 @@
 
 - 8.4 Design a parking lot using object-oriented principles. [[Solution]](../code/8.4.java)
 
-- 8.5 Design the data structures for an online book reader system.
+- 8.5 Design the data structures for an online book reader system. [[Solution]](../code/8.5.java)
