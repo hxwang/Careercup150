@@ -15,3 +15,5 @@
 - 8.6 Implement a jigsaw puzzle. Design the data structures and explain an algorithm to solve the puzzle. You can assume that you have a fitsWith method which when passed two puzzle pieces, return true if the two pieces belong together. [[Solution]](../code/8.6.java)
 
 - 8.7 Explain how you would design a chat server. In particular, provide details about the various backend components, classes, and methods. What would be th harest problem to solve? [[Solution]](../code/8.7.java)
+
+- 8.8 Othello is played as follows: Each Othello piece is white one one side and black on the other. When a piece is surrouned by its opponents on both the left and right sides, or both the top and bottom, it is said to be captured and its color is flipped. On your turn, you must capture at least one of your opponent;s pieces. The game ends when their user had no more valid moves. The win is assigned to the person with the most peices. Implement the object-oriented design for Othello.
