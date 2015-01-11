@@ -43,6 +43,9 @@ public class User{
 
 /////////////////////////////////////////////// Reference
 
+
+//Comment: for a large system, it is important to tears off the component in order not to make the system overweight
+
 public class OnlineReaderSystem{
   //tear off the compoenents into Library, UserManagement, and Display Class; to avoid make the class large
   
