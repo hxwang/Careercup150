@@ -14,4 +14,4 @@
 
 - 8.6 Implement a jigsaw puzzle. Design the data structures and explain an algorithm to solve the puzzle. You can assume that you have a fitsWith method which when passed two puzzle pieces, return true if the two pieces belong together. [[Solution]](../code/8.6.java)
 
-- 8.7 Explain how you would design a chat server. In particular, provide details about the various backend components, classes, and methods. What would be th harest problem to solve?
+- 8.7 Explain how you would design a chat server. In particular, provide details about the various backend components, classes, and methods. What would be th harest problem to solve? [[Solution]](../code/8.7.java)
