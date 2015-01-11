@@ -35,7 +35,7 @@ public class JukeBox{
   private CDPlayer cdPlayer;
   private User user;
   private Set<CD> cdCollection;
-  rivate SongSelector ts;
+  private SongSelector ts;
   
   public JukeBox(CDPlayer cdPlayer, User user, Set<CD> cdCollection, SongSelector ts) {...}
   
