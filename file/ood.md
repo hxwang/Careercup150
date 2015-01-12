@@ -20,4 +20,4 @@
 
 - 8.9 Explain the data structures and algorithms that you would use to design an in-memory system. Illustrate with an example in code where possible. [[Solution]](../code/8.9.java)
 
-- 8.10 Design and implement a hash table which users chaining(linked lists) to handle collisions
+- 8.10 Design and implement a hash table which users chaining(linked lists) to handle collisions [[Solution]](../code/8.10.java)
