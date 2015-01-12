@@ -11,3 +11,7 @@
 - 9.4 Write a method to return all subset of a set. [[Solution]](https://github.com/hxwang/Leetcode/blob/master/code/Subsets.java)
 
 - 9.5 Write a method to compute all permutations of a string. [[Solution]](https://github.com/hxwang/Leetcode/blob/master/code/Permutations.java)
+
+- 9.6 Implement an algorithm to print all valid (e.g., properly opened and closed) combinations of n-pairs of parentheses. 
+  - Example: 3
+  - Output: ((())), (()()), (())(), ()(()), ()()()
