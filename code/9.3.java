@@ -20,7 +20,8 @@ public static int magicFast(int[] array){
 }
 
 //elements are not distinct
+//Not Understand
 
 //check mid, if not array[mid] == midval
-//left: search from start to Math.mid(mid-1, midval)
+//left: search from start to Math.min(mid-1, midval)
 //right: search from Math.max(mid+1, midval)
