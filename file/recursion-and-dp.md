@@ -22,4 +22,4 @@
   - Comment: distinguish how this is different from Fibonacci array
   - [[Solution]](../code/9.8.java)
 
-- 9.9 Write an algorithm to print all ways of arranging eight queens on an 8*8 chess board so that none of them share the same row, column or diagnal. In this case, "diagonal" means all diagonals, not just the two that bisect the board.
+- 9.9 Write an algorithm to print all ways of arranging eight queens on an 8*8 chess board so that none of them share the same row, column or diagnal. In this case, "diagonal" means all diagonals, not just the two that bisect the board. [[Solution]](https://github.com/hxwang/Leetcode/blob/master/code/N-Queens.java)
