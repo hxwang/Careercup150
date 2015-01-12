@@ -90,7 +90,7 @@ public class Hash<K, V>{
 
 public class Cell<K,V>{
   private K key;
-  privae V value;
+  private V value;
   public Cell(K k, V v){
     key = k;
     value = v;
