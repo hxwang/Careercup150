@@ -7,6 +7,7 @@ boolean paintFill(Color[][] screen, int x, int y, Color ocolor, Color ncolor){
   if(x<0 || x>= screen.length) return false;
   if(y<0 || y>=screen[0].length) return false;
   
+  //recursive paint where is ocolor to ncolor
   if(screen[x][y] == ocolor){
     screen[x][y] = ncolor;
     paintFill(screen, x-1, y, ocolor, ncolor);
