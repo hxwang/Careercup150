@@ -116,7 +116,7 @@ public class File extends entry{
     size = sz;
   }
   
-  public int getSize() {return size;}
+  public int size() {return size;}
   public String getContent() {return contents;}
   public void setContent(String c) {content = c;}
 }
