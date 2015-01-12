@@ -17,3 +17,5 @@
   - Output: ((())), (()()), (())(), ()(()), ()()()
 
 - 9.7 Implementa the "paint fill" function that one might see on many image editing programs. That is, given a screen (represented by a two-dimensional array of colors), a point, an a new color, fill in the surrounding area until the color changes from the original color.  [[Solution]](../code/9.7.java)
+
+- 9.8 Given an infinite number of quarters (25 cents), dimes (10 cents), nickels (5 cents) and pennies (1 cent), write code to calculat ethe number of ways to represent n cents. 
