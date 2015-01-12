@@ -14,3 +14,29 @@ public int ways(int X, int Y, boolean[][] cango){
   
   return ways[X][Y];
 }
+
+///////////////////////////
+//The problem try to output solution
+public boolean getPath(int x, int y, ArrayList<Point> path, HashTable<Point, Boolean> cache){
+  
+  Point p = new Point(x,y);
+  if(cache.containsKey(p)) return cache.get(p);
+  
+  path.add(p);
+  
+  if(x==0 && y==0) return true; //found a path
+  boolean success = false;
+  
+  if(x>=1 && isFree(x-1,y)){
+    success = getPath(x-1, y, path, cache);
+  }
+  
+  if(!success && y>=1 && isFree(x,y-1)){
+    success = getPath(x, y-1, path, cache);
+  }
+  
+  if(!success)
+    path.remove(p);
+  cache.put(p, success);
+  return success;
+}
