@@ -18,4 +18,4 @@
 
 - 8.8 Othello is played as follows: Each Othello piece is white on one side and black on the other. When a piece is surrouned by its opponents on both the left and right sides, or both the top and bottom, it is said to be captured and its color is flipped. On your turn, you must capture at least one of your opponent's pieces. The game ends when their user had no more valid moves. The win is assigned to the person with the most peices. Implement the object-oriented design for Othello. [[Solution]](../code/8.8.java)
 
-- 8.9 Explain the data structures and algorithms that you would use to design an in-memory system. Illustrate with an example in code where possible.
+- 8.9 Explain the data structures and algorithms that you would use to design an in-memory system. Illustrate with an example in code where possible. [[Solution]](../code/8.9.java)
