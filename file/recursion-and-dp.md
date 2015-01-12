@@ -16,4 +16,4 @@
   - Example: 3
   - Output: ((())), (()()), (())(), ()(()), ()()()
 
-- 9.7 Implementa the "paint fill" function that one might see on many image editing programs. That is, given a screen (represented by a two-dimensional array of colors), a point, an a new color, fill in the surrounding area until the color changes from the original color. 
+- 9.7 Implementa the "paint fill" function that one might see on many image editing programs. That is, given a screen (represented by a two-dimensional array of colors), a point, an a new color, fill in the surrounding area until the color changes from the original color.  [[Solution]](../code/9.7.java)
