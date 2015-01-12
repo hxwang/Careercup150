@@ -15,3 +15,5 @@
 - 9.6 Implement an algorithm to print all valid (e.g., properly opened and closed) combinations of n-pairs of parentheses. [[Solution]](https://github.com/hxwang/Leetcode/blob/master/code/Generate-Parentheses.java)
   - Example: 3
   - Output: ((())), (()()), (())(), ()(()), ()()()
+
+- 9.7 Implementa the "paint fill" function that one might see on many image editing programs. That is, given a screen (represented by a two-dimensional array of colors), a point, an a new color, fill in the surrounding area until the color changes from the original color. 
