@@ -23,3 +23,5 @@
   - [[Solution]](../code/9.8.java)
 
 - 9.9 Write an algorithm to print all ways of arranging eight queens on an 8*8 chess board so that none of them share the same row, column or diagnal. In this case, "diagonal" means all diagonals, not just the two that bisect the board. [[Solution]](https://github.com/hxwang/Leetcode/blob/master/code/N-Queens.java)
+
+- 9.10 You have a stack of n boxes, with widths w<sub>i</sub>, height h<sub>i</sub> and depths d<sub>i</sub>. The boxes cannot be rotated and can only be stacked on top of one another if each box in the stack is strictly larger than the box above it in width, height and depth. Implement a method to build the tallest stack possible, where the height of a stack is the sum of the heights of each box.
