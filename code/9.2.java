@@ -24,19 +24,23 @@ public boolean getPath(int x, int y, ArrayList<Point> path, HashTable<Point, Boo
   
   path.add(p);
   
+  //terminate case
   if(x==0 && y==0) return true; //found a path
   boolean success = false;
   
+  //go right
   if(x>=1 && isFree(x-1,y)){
     success = getPath(x-1, y, path, cache);
   }
   
+  //go down
   if(!success && y>=1 && isFree(x,y-1)){
     success = getPath(x, y-1, path, cache);
   }
   
   if(!success)
     path.remove(p);
+  //cache result
   cache.put(p, success);
   return success;
 }
