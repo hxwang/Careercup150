@@ -1,6 +1,8 @@
 
 //write a method to compute all permutation of a string
 
+//My implementation
+
 ArrayList<String> allPermutation(String s){
   ArrayList<String> rnt = new ArrayList<String>();
   StringBuffer sb = new StringBuffer();
@@ -24,3 +26,6 @@ public void dfs(ArrayList<String> rnt, StringBuffer sb, int depth, String s){
     }
   }
 }
+
+
+// Suggestion: use an array to key track whether the ith element is used or not
