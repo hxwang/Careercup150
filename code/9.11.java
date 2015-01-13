@@ -24,6 +24,7 @@ class Ideone
 	}
 	
 	public static int getCount(String exp, int goal){
+	  //len only refer to non-symbol character
 	  int len = exp.length()/2+1;
 	  //symbox index: 2*i+1
 	  int[][] way0 = new int[len][len];
@@ -36,6 +37,8 @@ class Ideone
 	    else way1[i][i] = 1;
 	  }
 	  
+	  //note that step should be the outerloop!
+	  //otherwise, when compute way[i][j], way[i][k] may not be of valid value
 	  for(int step=1; step<len; step++){
 	  for(int i=0; i<len-step; i++){
 	  	  int j = i+step;
