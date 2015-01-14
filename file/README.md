@@ -12,3 +12,4 @@
 - [7. Mathematics and Probability](./mathematics-and-probability.md)
 - [8. Object-Oriented Design](./ood.md)
 - [9. Recursion and Dynamic Programming](./recursion-and-dp.md)
+- [11. Sorting and Searching](./sort-and-search.md)
