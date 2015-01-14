@@ -8,3 +8,7 @@
   - Example: find 5 in {15, 16, 19, 20, 1, 3, 4, 5, 7, 10, 14}
 
 - 11.4 Imagine you have a 20GB file with one string per line. Explain how you would sort the file. [[Solution]](../code/11-4.md)
+
+- 11.5 Given a sorted array of strings which is interspersed with empty strings, write a method to find the location of a given string. 
+  - Example: find "ball" in {"at", "", "", "ball", ""}
+  - output: 4
