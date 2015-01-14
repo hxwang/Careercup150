@@ -9,6 +9,6 @@
 
 - 11.4 Imagine you have a 20GB file with one string per line. Explain how you would sort the file. [[Solution]](../code/11-4.md)
 
-- 11.5 Given a sorted array of strings which is interspersed with empty strings, write a method to find the location of a given string. 
+- 11.5 Given a sorted array of strings which is interspersed with empty strings, write a method to find the location of a given string. [[Solutio]](../code/11-5.java)
   - Example: find "ball" in {"at", "", "", "ball", ""}
   - output: 4
