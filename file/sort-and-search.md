@@ -12,3 +12,5 @@
 - 11.5 Given a sorted array of strings which is interspersed with empty strings, write a method to find the location of a given string. [[Solution]](../code/11-5.java)
   - Example: find "ball" in {"at", "", "", "ball", ""}
   - output: 4
+
+- 11.6 Given an M*N matrix in which each row and each column is sorted in ascending order, write a method to find an element.
