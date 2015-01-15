@@ -18,7 +18,7 @@
 - 11.7 A circus is designing a tower routine consisting of people standing atop one another's shoulders. For practical and asethetic reasons, each person must be both shorter and ligher than the person below him or her. Given the heights and weightes of each person in the curcus, write a method to compute the largest possible number of people in such a tower.  [[Solution]](../code/11-7.java)
   - Input (ht, wt): (65, 100), (70, 150), (56, 90), (75, 190), (60, 95), (68, 110)
   - Output: the longest tower is length 6 and includes from top to bottom
-    - (56, 90, (60, 95), (65, 100), (68, 110), (70, 150), (75, 190)
+    - (56, 90), (60, 95), (65, 100), (68, 110), (70, 150), (75, 190)
 
 - 11.8 Imagine you are reading in a steam of integers. Periodically, you wish to be able to look up the rank of a number x (the number of values less than or equal to x). Implement the data structures and algorithms to support these operations. That is, implement the method track(int x), which is called when each number is generated, and the method getRankOfNumber(int x), which returns the number of values less than or equal to x (not including x itself).
   - Example: Steam (in order of appearance): 5, 1, 4 ,4, 5, 9, 7, 13,3
