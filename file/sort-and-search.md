@@ -13,4 +13,4 @@
   - Example: find "ball" in {"at", "", "", "ball", ""}
   - output: 4
 
-- 11.6 Given an M*N matrix in which each row and each column is sorted in ascending order, write a method to find an element.
+- 11.6 Given an M*N matrix in which each row and each column is sorted in ascending order, write a method to find an element. [[Solution]](https://github.com/hxwang/Leetcode/blob/master/code/Search-a-2D-Matrix.java)
