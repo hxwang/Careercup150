@@ -15,7 +15,7 @@
 
 - 11.6 Given an M*N matrix in which each row and each column is sorted in ascending order, write a method to find an element. [[Solution]](https://github.com/hxwang/Leetcode/blob/master/code/Search-a-2D-Matrix.java)
 
-- 11.7 A circus is designing a tower routine consisting of people standing atop one another's shoulders. For practical and asethetic reasons, each person must be both shorter and ligher than the person below him or her. Given the heights and weightes of each person in the curcus, write a method to compute the largest possible number of people in such a tower.  [[Solution]](../11-7.java)
+- 11.7 A circus is designing a tower routine consisting of people standing atop one another's shoulders. For practical and asethetic reasons, each person must be both shorter and ligher than the person below him or her. Given the heights and weightes of each person in the curcus, write a method to compute the largest possible number of people in such a tower.  [[Solution]](../code/11-7.java)
   - Input (ht, wt): (65, 100), (70, 150), (56, 90), (75, 190), (60, 95), (68, 110)
   - Output: the longest tower is length 6 and includes from top to bottom
     - (56, 90, (60, 95), (65, 100), (68, 110), (70, 150), (75, 190)
