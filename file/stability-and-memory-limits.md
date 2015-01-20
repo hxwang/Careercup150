@@ -7,5 +7,5 @@
 10.2 How would you design the data structures for a very large social network like Facebook or LinkedIn?
   - Describe how you would design an algorithm to show the connection, or path, between two people (e.g., Me -> Bob -> Susan -> Jason) [[Solution]](../code/10-2.java)
 
-10.3 Given an input file with four billion non-negative integers, provide an algorithm to generate an integer which is not contained in the file. Assume you have 1GB of memory available for this task. 
+10.3 Given an input file with four billion non-negative integers, provide an algorithm to generate an integer which is not contained in the file. Assume you have 1GB of memory available for this task.  [[Solution]](../code/10-3.md)
   - What if you have only 10MB of memory. Assume that all the values are distinct.
