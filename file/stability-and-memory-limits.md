@@ -5,4 +5,4 @@
   - Your service can use any technologies you wish and can distribute the information to the client applications in any mechanism you choose. 
 
 10.2 How would you design the data structures for a very large social network like Facebook or LinkedIn?
-  - Describe how you would design an algorithm to show the connection, or path, between two people (e.g., Me -> Bob -> Susan -> Jason)
+  - Describe how you would design an algorithm to show the connection, or path, between two people (e.g., Me -> Bob -> Susan -> Jason) [[Solution]](../code/10-2.md)
