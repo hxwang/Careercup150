@@ -66,3 +66,14 @@ public class Machine{
   }
 }
 
+
+/**
+ * Overall idea: people could locate in different person
+ * The server maintain a list of machines and a people-to-machine map
+ * 
+ * Each person maintain a list of friends
+ * Each machine matain a list of people
+ * 
+ * 
+ * 
+ * /
