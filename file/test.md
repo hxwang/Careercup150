@@ -29,4 +29,4 @@
     - e.g., for remote users with chrom crushed, you can mimic the same step when you instruct the remote users to do something, like click an item etc.
 
 
-- 12.2 You are given the source to an application which crashes when it is run. After running it tens times in a debugger, you find it never crashes in the same place. The application is single threaded, and uses only the C standard library. What proramming errors could be this crash? How would you test each one?
+- 12.2 You are given the source to an application which crashes when it is run. After running it tens times in a debugger, you find it never crashes in the same place. The application is single threaded, and uses only the C standard library. What proramming errors could be this crash? How would you test each one? [[solution]](../code/12-2.md)
