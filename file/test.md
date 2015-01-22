@@ -35,4 +35,6 @@
 
 - 12.4 how would you load test a webpage without using any test tools? [[solution]](../code/12-4.md)
 
-- 12.5 how would you test a pen?
+- 12.5 how would you test a pen? [[solution]](../code/12-5.md)
+
+- 12.6 how would you test an ATM in a distributed system? [[solution]](../code/12-6.md)
