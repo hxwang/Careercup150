@@ -14,3 +14,4 @@
 - [9. Recursion and Dynamic Programming](./recursion-and-dp.md)
 - [10. Stability and Memory Limits](./stability-and-memory-limits.md)
 - [11. Sorting and Searching](./sort-and-search.md)
+- [12. Testing](./test.md)
