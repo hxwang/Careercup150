@@ -15,3 +15,5 @@
 10.5 If you were designing a web crawler, how would you avoid getting into infinite loops? [[solution]](../code/10-5.md)
 
 10.6 You have 10 billion URLs. How do you detect the duplicate documents? In this case, assume that "duplicate" means that the URLs are identical. [[solution]](../code/10-6.md)
+
+10.7 Imagine a web server for a simplified search engine. This system has 100 machines to respond to search queries, which may then call out using processSearch(string query) to another cluster of machines to actually get the result. The machine which responds to a given query is chosen at random, so you can not guarantee that the same machine will always respond to the same request. The method processSearch is very expensive. Design a caching mechanism to cache the results of the most recent queries. Be sure to explain how you would update the cache when data changes.
