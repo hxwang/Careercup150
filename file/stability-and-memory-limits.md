@@ -14,4 +14,4 @@
 
 10.5 If you were designing a web crawler, how would you avoid getting into infinite loops? [[solution]](../code/10-5.md)
 
-10.6 You have 10 billion URLs. How do you detect the duplicate documents? In this case, assume that "duplicate" means that the URLs are identical.
+10.6 You have 10 billion URLs. How do you detect the duplicate documents? In this case, assume that "duplicate" means that the URLs are identical. [[solution]](../code/10-6.md)
