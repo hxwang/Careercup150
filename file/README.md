@@ -15,3 +15,5 @@
 - [10. Stability and Memory Limits](./stability-and-memory-limits.md)
 - [11. Sorting and Searching](./sort-and-search.md)
 - [12. Testing](./test.md)
+- 15. Databases
+- 16. Threads and Locks 
