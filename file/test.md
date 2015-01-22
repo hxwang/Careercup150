@@ -31,4 +31,4 @@
 
 - 12.2 You are given the source to an application which crashes when it is run. After running it tens times in a debugger, you find it never crashes in the same place. The application is single threaded, and uses only the C standard library. What proramming errors could be this crash? How would you test each one? [[solution]](../code/12-2.md)
 
-- 12.3 We have the following method used in a chess game: boolean canMoveTo(int x, int y). This method is part of the Piece class and returns whether or not the piece can move to position (x,y). Explain how you would test this method.
+- 12.3 We have the following method used in a chess game: boolean canMoveTo(int x, int y). This method is part of the Piece class and returns whether or not the piece can move to position (x,y). Explain how you would test this method. [[solution]](../code/12-3.md)
