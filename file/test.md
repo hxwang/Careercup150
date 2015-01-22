@@ -33,5 +33,6 @@
 
 - 12.3 We have the following method used in a chess game: boolean canMoveTo(int x, int y). This method is part of the Piece class and returns whether or not the piece can move to position (x,y). Explain how you would test this method. [[solution]](../code/12-3.md)
 
-- 12.4 how would you load test a webpage without using any test tools?
+- 12.4 how would you load test a webpage without using any test tools? [[solution]](../code/12-4.md)
 
+- 12.5 how would you test a pen?
