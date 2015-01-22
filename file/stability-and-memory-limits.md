@@ -13,3 +13,5 @@
 10.4 You have an array with all the numbers from 1 to N, where N is at most 32,000. The array may have duplicated entries and you do not know what N is. With only 4 kilobytes of memory availables, how would you print all duplicate elements in the array? [[solution]](../code/10-4.java)
 
 10.5 If you were designing a web crawler, how would you avoid getting into infinite loops? [[solution]](../code/10-5.md)
+
+10.6 You have 10 billion URLs. How do you detect the duplicate documents? In this case, assume that "duplicate" means that the URLs are identical.
