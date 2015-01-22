@@ -10,4 +10,4 @@
 10.3 Given an input file with four billion non-negative integers, provide an algorithm to generate an integer which is not contained in the file. Assume you have 1GB of memory available for this task.  [[Solution]](../code/10-3.md)
   - What if you have only 10MB of memory. Assume that all the values are distinct.
 
-10.4 You have an array with all the numbers from 1 to N, where N is at most 32,000. The array may have duplicated entries and you do not know what N is. With only 4 kilobytes of memory availables, how would you print all duplicate elements in the array?
+10.4 You have an array with all the numbers from 1 to N, where N is at most 32,000. The array may have duplicated entries and you do not know what N is. With only 4 kilobytes of memory availables, how would you print all duplicate elements in the array? [[solution]](../code/10-4.java)
