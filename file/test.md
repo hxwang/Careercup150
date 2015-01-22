@@ -15,7 +15,15 @@
   - ...
   
 - Testing a function
-  - normal cases
-  - extrem cases
-  - null and "illegal" input
-  - strange input: e.g., what if you input an already sorted array?
+  - define testcases
+    - normal cases
+    - extrem cases
+    - null and "illegal" input
+    - strange input: e.g., what if you input an already sorted array?
+  - define expected result
+  
+- Troubleshooting Questions
+  - Step 1: understand the scenarios
+  - Step 2: break down the problem
+  - Step 3: create specific, manageable tests
+    - e.g., for remote users with chrom crushed, you can mimic the same step when you instruct the remote users to do something, like click an item etc.
